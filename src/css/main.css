@@ -12,3 +12,68 @@ img,
 video {
   display: block;
 }
+
+body { 
+  color: black;
+  font-family: 'roboto', sans-serif;
+}
+
+.card-title {
+font-family: Roboto;
+font-size: 27px;
+font-style: normal;
+font-weight: 400;
+line-height: 35px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+
+.name {
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+.date {
+color: rgba(0, 0, 0, 0.50);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+}
+
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+  max-width: 400px;
+  border: white 10px solid;
+  background-color: white;
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  box-shadow: 3px 3px 3px 3px #E7EAEE;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  display: flex;
+align-items: center;
+gap: 20px;
+}
